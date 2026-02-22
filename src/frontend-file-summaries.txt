@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining routes for home, booking, and management pages with a shared layout wrapper.",
+  "frontend/src/main.tsx": "Application entry point that wraps the app with QueryClient, InternetIdentity, ThemeProvider, and Toaster for notifications.",
+  "frontend/src/components/Layout.tsx": "Shared layout component with responsive header navigation, mobile menu, and footer including service branding and caffeine.ai attribution.",
+  "frontend/src/pages/HomePage.tsx": "Landing page featuring hero section, service cards with generated icons, and a \"How It Works\" section explaining the booking process.",
+  "frontend/src/pages/BookingPage.tsx": "Service booking page displaying the hero section and booking form for customers to request lawn mowing or car washing services.",
+  "frontend/src/pages/BookingsManagementPage.tsx": "Management dashboard page with filters and bookings list for viewing and managing all service requests.",
+  "frontend/src/components/HeroSection.tsx": "Reusable hero banner component with generated background image, supporting both full and compact display modes.",
+  "frontend/src/components/ServiceCard.tsx": "Service display card component showing lawn mowing or car washing service with icon, title, and description.",
+  "frontend/src/components/BookingForm.tsx": "Complete booking form with service type selection, date picker, address input, and backend integration for creating bookings.",
+  "frontend/src/components/BookingFilters.tsx": "Filter controls for bookings list allowing users to filter by service type and booking status.",
+  "frontend/src/components/BookingsList.tsx": "Table display of all bookings with service icons, dates, addresses, status badges, and inline status update actions.",
+  "frontend/src/components/BookingStatusUpdate.tsx": "Dropdown menu component for updating booking status between pending, confirmed, and completed states.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching bookings with filters, creating new bookings, and updating booking status with automatic cache invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining custom lawn (green) and wash (blue) theme colors for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom lawn and wash color tokens, Inter font family, and extended design system for the service business theme."
+}

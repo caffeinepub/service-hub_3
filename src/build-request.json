@@ -1,0 +1,151 @@
+{
+  "kind": "build_request",
+  "title": "Create lawn mowing and car washing service booking application",
+  "projectName": "Service Hub",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a service booking system that allows customers to request lawn mowing or car washing services",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "A lawn mowing and a car washing business."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Customers can select either lawn mowing or car washing service",
+        "Customers can submit a booking request with their details",
+        "Service requests are stored in the backend"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement a booking form that captures customer name, contact information, service type, preferred date, and address",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "A lawn mowing and a car washing business."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Form includes fields for name, email/phone, service selection, date picker, and address",
+        "Form validates required fields before submission",
+        "Users receive confirmation after successful booking"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create backend data model to store service bookings with fields for customer information, service type, date, address, and booking status",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "A lawn mowing and a car washing business."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Backend stores booking records with all required fields",
+        "Each booking has a unique identifier",
+        "Booking status can track pending, confirmed, or completed states"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Display a list of all service bookings with filtering options for service type and status",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "A lawn mowing and a car washing business."
+        ]
+      },
+      "acceptanceCriteria": [
+        "All bookings are displayed in a list or table format",
+        "Users can filter by lawn mowing or car washing services",
+        "Users can filter by booking status",
+        "Each booking shows customer details, service type, date, and current status"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Implement functionality to update booking status from pending to confirmed or completed",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "A lawn mowing and a car washing business."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Service providers can change booking status",
+        "Status updates persist in the backend",
+        "UI reflects status changes immediately"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Design a professional, clean visual theme with earthy greens and bright automotive blues that reflects both outdoor lawn care and car washing services, with clear typography and an organized layout suitable for service booking",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme combines natural greens with clean blues",
+        "Typography is clear and professional",
+        "Layout is organized and easy to navigate",
+        "Design conveys trustworthiness and cleanliness"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Display generated images as static assets in frontend/public/assets/generated including service icons and hero banner",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Generated images are stored in frontend/public/assets/generated",
+        "Images are properly referenced in components",
+        "Images load correctly in the application"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use Motoko for backend implementation",
+    "Use React with TypeScript for frontend",
+    "Use Tailwind CSS for styling",
+    "All backend logic must remain in a single actor file"
+  ],
+  "nonGoals": [
+    "Payment processing integration",
+    "Real-time chat between customers and service providers",
+    "Mobile app development",
+    "GPS tracking of service providers",
+    "Automated scheduling algorithms"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Lawn mower icon in clean line art style with green accents (lawn-mower-icon.dim_128x128.png)",
+      "Car with water droplets and shine icon in clean line art style with blue accents (car-wash-icon.dim_128x128.png)",
+      "Hero banner showing a split scene of a manicured lawn on the left and a sparkling clean car on the right, professional and inviting (hero-banner.dim_1200x400.png)"
+    ],
+    "edits": []
+  }
+}

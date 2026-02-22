@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "A lawn mowing and car washing business application",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Lawn mower icon in clean line art style with green accents (lawn-mower-icon.dim_128x128.png)\n- Car with water droplets and shine icon in clean line art style with blue accents (car-wash-icon.dim_128x128.png)\n- Hero banner showing a split scene of a manicured lawn on the left and a sparkling clean car on the right, professional and inviting (hero-banner.dim_1200x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-service-booking-system-that-allows-customers-to-request-lawn-mowing-or-car-washing-services",
+      "title": "Create a service booking system that allows customers to request lawn mowing or car washing services",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-booking-form-that-captures-customer-name-contact-information-service-type-preferred-date-and-address",
+      "title": "Implement a booking form that captures customer name, contact information, service type, preferred date, and address",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-a-list-of-all-service-bookings-with-filtering-options-for-service-type-and-status",
+      "title": "Display a list of all service bookings with filtering options for service type and status",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-functionality-to-update-booking-status-from-pending-to-confirmed-or-completed",
+      "title": "Implement functionality to update booking status from pending to confirmed or completed",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-professional-clean-visual-theme-with-earthy-greens-and-bright-automotive-blues-that-reflects-both-outdoor-lawn-care-and-car-washing-services-with-clear-typography-and-an-organized-layout-suitable-for-service-booking",
+      "title": "Design a professional, clean visual theme with earthy greens and bright automotive blues that reflects both outdoor lawn care and car washing services, with clear typography and an organized layout suitable for service booking",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-generated-images-as-static-assets-in-frontend-public-assets-generated-including-service-icons-and-hero-banner",
+      "title": "Display generated images as static assets in frontend/public/assets/generated including service icons and hero banner",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-3",
+      "summary": "Create backend data model to store service bookings with fields for customer information, service type, date, address, and booking status",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Service Hub",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
